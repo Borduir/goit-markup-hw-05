@@ -87,6 +87,10 @@ h6 {
   flex-direction: column;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* header styles */
 header {
   background-color: var(--primary-white-color);
@@ -434,6 +438,10 @@ height: 581px;
   margin-bottom: 10px;
 }
 
+.team-item p {
+  margin-bottom: 16px;
+}
+
 .social-link {
   display: flex;
   justify-content: center;
@@ -459,7 +467,6 @@ height: 581px;
 
 .social-links {
   display: flex;
-  margin-bottom: 30px;
   margin-left: 32px;
   margin-right: 32px;
 }
@@ -576,6 +583,7 @@ address {
 /* portfolio styles */
 .portfolio {
   background-color: var(--primary-white-color);
+  padding-bottom: 64px;
 }
 
 .section.portfolio .container {
@@ -649,6 +657,7 @@ address {
 
 .project-list li {
   margin-bottom: 30px;
+  
 }
 
 .project-list li:not(:nth-child(3n + 3)) {
