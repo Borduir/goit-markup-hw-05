@@ -251,7 +251,6 @@ header {
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .backdrop.is-hidden {
@@ -260,7 +259,7 @@ header {
 }
 
 .modal {
-  display:flex;
+  display: flex;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -657,7 +656,6 @@ address {
 
 .project-list li {
   margin-bottom: 30px;
-  
 }
 
 .project-list li:not(:nth-child(3n + 3)) {
@@ -670,10 +668,6 @@ address {
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
-}
-
-.project-item:hover .overflow-container {
-  transform: translateY(0);
 }
 
 .overflow-container {
@@ -690,6 +684,10 @@ address {
   padding-left: 24px;
   padding-right: 24px;
   color: var(--primary-white-color);
+}
+
+.project-item:hover .overflow-container {
+  transform: translateY(0);
 }
 
 .project-item-about {
